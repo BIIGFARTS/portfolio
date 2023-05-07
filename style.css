@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/soft-pink-wooden-background_24837-20.jpg?w=996&t=st=1683442497~exp=1683443097~hmac=e2c725cc121fd94ba3f9ff2102b9860e1aa7dfc488bf2f442f3db61d892389d2");
+    background-position: fixed;
+}
+div.gallery {
+    margin: 50px;
+    float: left;
+    width: 180px;
+    
+  }
+  
+  div.gallery img {
+    width: 150%;
+    height: auto;
+  }
+

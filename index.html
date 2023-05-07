@@ -1,145 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
+
 <body>
+
     <head>
         <meta charset="UTF-8">
         <title>Dylan Williams Portfolio</title>
     </head>
-    
+
     <body>
         <table>
             <tr>
-                <td><img src="./assets/websitephotocircle.png" height="250" width="250" alt="dylan williams avatar"></td>
+                <td><img src="./assets/websitephotocircle.png" height="250" width="250" alt="dylan williams avatar">
+                </td>
                 <td>
                     <h1>Dylan Williams</h1>
-                    <p>I specialize social media management, videography and editing, as well as fullstack web development.</p>
+                    <p>I specialize social media management, videography and editing, as well as fullstack web
+                        development.</p>
+                        <br><a href="./work-experience.html">
+                            Work Experience & Skills</a>
+                             
+                            <a href="./projects-page.html">
+                                HTML & CSS Projects</a>
+                    
                 </td>
             </tr>
         </table>
-    
-    
-    
-        <hr>
-        <h3>Areas of Specialty</h3>
-        <ul>
-            <li>UGC Video Creation</li>
-            <li>Videography</li>
-            <li>Photography</li>
-            <li>Editing</li>
-        </ul>
 
         <hr>
 
-        <h3>Education Experience</h3>
-        <table cellspacing="50">
-            <thead>
-    
-                <tr>
-                    <th>Dates</th>
-                    <th>School</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>September 2011 - July 2012</td>
-                    <td>Hair Design Diploma, Vancouver Community College</td>
-                </tr>
-                <tr>
-                    <td>September 2005 - June 2010</td>
-                    <td>Dogwood Diploma - Graduated on Principals Honor Roll, L.V. Roger Seconadary School</td>
-                </tr>
-            </tbody>
-        </table>
 
-        <hr>
+        <div class="gallery">
+            <a target="_blank" href="./assets/096.JPG">
+              <img src="./assets/096.JPG" alt="Girl with flowers" width="600" height="400">
+            </a>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="./assets/120.JPG">
+              <img src="./assets/120.JPG" alt="Pond with lilypads" width="600" height="400">
+            </a>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="./assets/130.JPG">
+              <img src="./assets/130.JPG" alt="Asian garden" width="600" height="400">
+            </a>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="./assets/211.JPG">
+              <img src="./assets/211.JPG" alt="water closeup" width="600" height="400">
+            </a>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="./assets/224.JPG">
+              <img src="./assets/224.JPG" alt="water closeup" width="600" height="400">
+            </a>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="./assets/255.JPG">
+              <img src="./assets/255.JPG" alt="water closeup" width="600" height="400">
+            </a>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="./assets/253.JPG">
+              <img src="./assets/253.JPG" alt="water closeup" width="600" height="400">
+            </a>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="./assets/281.JPG">
+              <img src="./assets/281.JPG" alt="water closeup" width="600" height="400">
+            </a>
+          </div>
+<br><div class="contact">
+        <h3>CONTACT</h3>
+        <a href="./contact.html">
+            <img src="data:image/png;base64,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"
+                height="50" width="50" alt="twitch logo">
+        </a>
+</div>
 
-        <h3>Work Experience</h3>
-    
-        <table cellspacing="50">
-            <thead>
-    
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Nov 2022 - Present</td>
-                    <td>Social media content creator/editor, STYLEREISSUE</td>
-                </tr>
-                <tr>
-                    <td>April 2021 - April 2022</td>
-                    <td>Mental Health Outreach - Eastside Works, EMBERS</td>
-                </tr>
-                <tr>
-                    <td>May 2015 - July 2019</td>
-                    <td>Store manager, social media and content creator - THE MAIN EXCHANGE</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>Skills</h3>
-    
-        <table border="1" cellspacing="10">
-    
-            <tbody>
-                <tr>
-                    <td>Photography </td>
-                    <td> 🌸 🌸 🌸 🌸 🌸 </td>
-                </tr>
-                <tr>
-                    <td>Videography </td>
-                    <td> 🌸 🌸 🌸 🌸 🌸 </td>
-                </tr>
-                <tr>
-                    <td>Photo and video editing </td>
-                    <td> 🌸 🌸 🌸 🌸 🌸 </td>
-                </tr>
-                <tr>
-                    <td>Front end web development </td>
-                    <td> 🌸 🌸 🌸 </td>
-                </tr>
-                <tr>
-                    <td>Back end web development </td>
-                    <td> 🌸 🌸 </td>
-                </tr>
-            </tbody>
-    
-        </table>
-        <br>
-        <hr>
-        <br>
-    
-    
-    
-    
-        <table>
-            <thead>
-                <tr>
-                    <th>CONTACT</th>
-                </tr>
-            </thead>
-    
-            <tbody>
-                <tr>
-                    <td><a href="contact.html">
-                            <img src="data:image/png;base64,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"
-                                height="50" width="50" alt="twitch logo">
-                        </a></td>
-                </tr>
-            </tbody>
-        </table>
-    
-    
-        <footer>
-            <p>© 2023 Dylan Williams </p>
-        </footer>
-</body>
 </html>
